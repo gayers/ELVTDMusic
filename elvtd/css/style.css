@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300');
+html, body {
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(#0a0a0a,#000,#0a0a0a,#000);
+  /*background-color:   black !important;*/
+}
+h1 {
+  font: 300 100px Alegreya Sans, monospace;
+  white-space: nowrap;
+  color: #FFFFFF /*whitesmoke;*/;
+  letter-spacing:   15px;
+}
+span {
+  display: inline-block;
+  animation: stretch 3s cubic-bezier(0.4, 1.4, 0.75, 0.9) 3;
+  transform-origin: center;
+}
+span:nth-of-type(1) {
+  animation-delay: 0.25s;
+}
+span:nth-of-type(2) {
+  animation-delay: 0.5s;
+}
+span:nth-of-type(3) {
+  animation-delay: 0.75s;
+}
+span:nth-of-type(4) {
+  animation-delay: 1s;
+}
+span:nth-of-type(5) {
+  animation-delay: 1.s;
+}
+span:nth-of-type(6) {
+  animation-delay: 1s;
+}
+span:nth-of-type(7) {
+  animation-delay: 1.75s;
+}
+span:nth-of-type(8) {
+  animation-delay: 1s;
+}
+span:nth-of-type(9) {
+  animation-delay: 1s;
+}
+span:nth-of-type(10) {
+  animation-delay: 1s;
+}
+@keyframes stretch {
+  5% {
+    transform: scaleX(5000);
+    opacity: .01;
+    
+  }
+  15% {
+    transform: scaleX(1);
+    opacity: 1;
+    color: #551A8B;
+   
+  }
+}
